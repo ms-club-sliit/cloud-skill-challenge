@@ -43,7 +43,15 @@ Author Email: ithemeslab@gmail.com */
 /*google fonts*/
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700");
 /* 1.1  global & override */
-
+html {
+  scroll-behavior: smooth;
+}
+.bttcenter
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .single-sponsers img {
   margin: 0;
   position: absolute;
