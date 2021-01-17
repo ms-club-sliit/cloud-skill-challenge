@@ -175,6 +175,36 @@
   .hero-banner-area .banner-content p {
     line-height: 25px;
   }
+  
+  @media screen and (max-width: 600px) {
+    .brand-logo {
+      text-align: center;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    .hero-banner-area .banner-content {
+      margin-top: 10%;
+    }
+  }
+
+  @media screen and (max-width: 384px) {
+    .hero-banner-area .banner-content {
+      margin-top: 18%;
+    }
+  }
+
+  @media screen and (max-width: 360px) {
+    .hero-banner-area .banner-content {
+      margin-top: 30%;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    .hero-banner-area .banner-content {
+      margin-top: 40%;
+    }
+  }
   .section-title .title-text h2 {
     font-size: 23px;
     line-height: 23px;
